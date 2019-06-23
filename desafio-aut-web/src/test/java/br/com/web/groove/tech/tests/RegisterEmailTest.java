@@ -11,9 +11,9 @@ import br.com.web.groove.tech.utils.ValidationResult;
 import ru.yandex.qatools.allure.annotations.Features;
 import ru.yandex.qatools.allure.annotations.Title;
 
-@Title("SUITE_001 - REGISTRAR CONTA DE E-MAIL")
-@Features("001 - VALIDAR FORMULARIO REGISTRO E-MAIL")
-public class LoginTest extends BaseTest {
+@Title("SUITE_002 - REGISTRAR CONTA DE E-MAIL")
+@Features("002 - VALIDAR FORMULARIO REGISTRO E-MAIL")
+public class RegisterEmailTest extends BaseTest {
 
 	AuthenticationSteps authetication = new AuthenticationSteps();
 	RegisterSteps register = new RegisterSteps();
@@ -41,15 +41,6 @@ public class LoginTest extends BaseTest {
 				TestData.alias);
 		// Verifica se o alert apareceu na tela.
 		ValidationResult.assertMessageInElement(register.divMsgError, "passwd is required.");
-	}
-
-	@Test
-	@Title("[SMOKETEST - 003] - Verificar E-mail ja cadastrado na base")
-	public void testVerificarEmailExistente() {
-		authetication.authenticateEmail(TestData.emailIsExists);
-		// Verifica se o alert apareceu na tela.
-		ValidationResult.assertMessageInElement(authetication.divMsgError,
-				"An account using this email address has already been registered. Please enter a valid password or request a new one");
 	}
 
 }
