@@ -1,11 +1,16 @@
 package br.com.web.groove.tech.steps;
 
+import org.openqa.selenium.WebElement;
+
 import br.com.web.groove.tech.page.RegisterPage;
 import br.com.web.groove.tech.utils.ValidationResult;
 
 public class RegisterSteps {
 
 	RegisterPage registerPage = new RegisterPage();
+	
+	public WebElement divMsgError = registerPage.divMsgError;
+	public WebElement h1MyAccount = registerPage.h1MyAccount;
 
 	public void checkAlert() {
 		ValidationResult.assertElement(registerPage.divMsgError);

@@ -4,19 +4,19 @@ import org.junit.Test;
 
 import br.com.web.groove.tech.base.BaseTest;
 import br.com.web.groove.tech.data.TestData;
-import br.com.web.groove.tech.page.AuthenticationPage;
-import br.com.web.groove.tech.page.RegisterPage;
+import br.com.web.groove.tech.steps.AuthenticationSteps;
+import br.com.web.groove.tech.steps.RegisterSteps;
 import br.com.web.groove.tech.utils.Generator;
 import br.com.web.groove.tech.utils.ValidationResult;
 import ru.yandex.qatools.allure.annotations.Features;
 import ru.yandex.qatools.allure.annotations.Title;
 
 @Title("SUITE_001 - REGISTRAR CONTA DE E-MAIL")
-@Features("001 - REGISTRAR CONTA E-MAIL COM SUCESSO")
+@Features("001 - VALIDAR FORMULARIO REGISTRO E-MAIL")
 public class LoginTest extends BaseTest {
 
-	AuthenticationPage authetication = new AuthenticationPage();
-	RegisterPage register = new RegisterPage();
+	AuthenticationSteps authetication = new AuthenticationSteps();
+	RegisterSteps register = new RegisterSteps();
 
 	@Test
 	@Title("[SMOKETEST - 001] - Registrar conta e-mail com sucesso")

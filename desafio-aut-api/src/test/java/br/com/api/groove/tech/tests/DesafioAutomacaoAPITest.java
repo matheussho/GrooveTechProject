@@ -16,9 +16,8 @@ import io.restassured.response.Response;
 public class DesafioAutomacaoAPITest {
 
 	@Test
-	public void testDesafio() {
-		RestAssured.baseURI = "https://swapi.co/api";
-		RestAssured.basePath = "/films";
+	public void testGetTitle() {
+		RestAssured.baseURI = "https://swapi.co/api/films";
 
 		Response response = given().contentType(ContentType.JSON).log().all().get("");
 
@@ -30,7 +29,7 @@ public class DesafioAutomacaoAPITest {
 			String director = result.get("director");
 			String producer = result.get("producer");
 			if (director.equals("George Lucas") && producer.equals("Rick McCallum")) {
-				
+
 				System.out.println(title);
 
 			}
