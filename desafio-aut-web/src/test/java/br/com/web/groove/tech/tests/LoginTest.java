@@ -1,7 +1,6 @@
 package br.com.web.groove.tech.tests;
 
 import org.junit.Test;
-import org.springframework.context.annotation.Description;
 
 import br.com.web.groove.tech.base.BaseTest;
 import br.com.web.groove.tech.data.TestData;
@@ -21,7 +20,6 @@ public class LoginTest extends BaseTest {
 
 	@Test
 	@Title("[SMOKETEST - 001] - Registrar conta e-mail com sucesso")
-	@Description("Validar se foi criado um usuario com sucesso.")
 	public void testRealizarCadastroComSucesso() {
 		authetication.authenticateEmail(TestData.email);
 		register.registerUser(TestData.firstName, TestData.lastName, TestData.password, TestData.day, TestData.month,
@@ -34,7 +32,6 @@ public class LoginTest extends BaseTest {
 
 	@Test
 	@Title("[SMOKETEST - 002] - Verificar Obrigatoriedade Password")
-	@Description("Validar se a mensagem apareceu corretamente.")
 	public void testVerificarObrigatoriedadePassword() {
 		String passwordIsEmpty = "";
 		authetication.authenticateEmail(Generator.gerarStringAleatoria() + "@gmail.com");
@@ -48,7 +45,6 @@ public class LoginTest extends BaseTest {
 
 	@Test
 	@Title("[SMOKETEST - 003] - Verificar E-mail ja cadastrado na base")
-	@Description("Validar se a mensagem apareceu corretamente.")
 	public void testVerificarEmailExistente() {
 		authetication.authenticateEmail(TestData.emailIsExists);
 		// Verifica se o alert apareceu na tela.
