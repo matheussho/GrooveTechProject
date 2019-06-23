@@ -1,0 +1,25 @@
+{
+  "testCases" : [ {
+    "uid" : "88301e7ce10551f5",
+    "name" : "testValidarTituloCadastro",
+    "title" : "[SMOKETEST - 001] - Registrar conta e-mail com sucesso",
+    "time" : {
+      "start" : 1560966135357,
+      "stop" : 1560966149989,
+      "duration" : 14632
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "ed9fd5efdfb48fab",
+    "name" : "testObrigatoriedadePassword",
+    "title" : "[SMOKETEST - 002] - Registrar conta e-mail com sucesso",
+    "time" : {
+      "start" : 1560966154995,
+      "stop" : 1560966165433,
+      "duration" : 10438
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  } ]
+}

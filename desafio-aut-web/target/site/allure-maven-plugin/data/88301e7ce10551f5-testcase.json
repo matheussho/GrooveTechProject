@@ -1,0 +1,425 @@
+{
+  "uid" : "88301e7ce10551f5",
+  "name" : "testValidarTituloCadastro",
+  "title" : "[SMOKETEST - 001] - Registrar conta e-mail com sucesso",
+  "time" : {
+    "start" : 1560966135357,
+    "stop" : 1560966149989,
+    "duration" : 14632
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 25
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "f226a15158dccbf7",
+    "name" : "br.com.web.groove.tech.tests.LoginTest",
+    "title" : "SUITE_001 - REGISTRAR CONTA DE E-MAIL"
+  },
+  "steps" : [ {
+    "name" : "navigateToUrl[http://automationpractice.com]",
+    "title" : "Ir para a pagina => http://automationpractice.com",
+    "time" : {
+      "start" : 1560966135468,
+      "stop" : 1560966142252,
+      "duration" : 6784
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "clickButton[[[ChromeDriver: chrome on MAC (16942cba3cdd31fe50811cdc0de58685)] -> xpath: //div[@class='header_user_info']...]",
+    "title" : "Clica no botao => Sign in",
+    "time" : {
+      "start" : 1560966142308,
+      "stop" : 1560966144164,
+      "duration" : 1856
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "writeInInput[[[ChromeDriver: chrome on MAC (16942cba3cdd31fe50811cdc0de58685)] -> id: email_create], SWMXAHX@gmail.com]",
+    "title" : "Preencher Campo => SWMXAHX@gmail.com",
+    "time" : {
+      "start" : 1560966144180,
+      "stop" : 1560966144378,
+      "duration" : 198
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "clickButton[[[ChromeDriver: chrome on MAC (16942cba3cdd31fe50811cdc0de58685)] -> id: SubmitCreate], Create an account]",
+    "title" : "Clica no botao => Create an account",
+    "time" : {
+      "start" : 1560966144413,
+      "stop" : 1560966144503,
+      "duration" : 90
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "clickButton[[[ChromeDriver: chrome on MAC (16942cba3cdd31fe50811cdc0de58685)] -> id: id_gender1], ]",
+    "title" : "Clica no botao => ",
+    "time" : {
+      "start" : 1560966146046,
+      "stop" : 1560966146135,
+      "duration" : 89
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "writeInInput[[[ChromeDriver: chrome on MAC (16942cba3cdd31fe50811cdc0de58685)] -> id: customer_firstname], MATHEUS]",
+    "title" : "Preencher Campo => MATHEUS",
+    "time" : {
+      "start" : 1560966146161,
+      "stop" : 1560966146305,
+      "duration" : 144
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "writeInInput[[[ChromeDriver: chrome on MAC (16942cba3cdd31fe50811cdc0de58685)] -> id: customer_lastname], OLIVEIRA]",
+    "title" : "Preencher Campo => OLIVEIRA",
+    "time" : {
+      "start" : 1560966146317,
+      "stop" : 1560966146456,
+      "duration" : 139
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "writeInInput[[[ChromeDriver: chrome on MAC (16942cba3cdd31fe50811cdc0de58685)] -> id: customer_firstname], MATHEUS]",
+    "title" : "Preencher Campo => MATHEUS",
+    "time" : {
+      "start" : 1560966146466,
+      "stop" : 1560966146636,
+      "duration" : 170
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "writeInInput[[[ChromeDriver: chrome on MAC (16942cba3cdd31fe50811cdc0de58685)] -> id: passwd], 4142134D]",
+    "title" : "Preencher Campo => 4142134D",
+    "time" : {
+      "start" : 1560966146649,
+      "stop" : 1560966146769,
+      "duration" : 120
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "selectElementoByValue[[[ChromeDriver: chrome on MAC (16942cba3cdd31fe50811cdc0de58685)] -> id: days], 23]",
+    "title" : "Selecionar o campo Campo => 23",
+    "time" : {
+      "start" : 1560966146782,
+      "stop" : 1560966146910,
+      "duration" : 128
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "selectElementoByValue[[[ChromeDriver: chrome on MAC (16942cba3cdd31fe50811cdc0de58685)] -> id: months], 4]",
+    "title" : "Selecionar o campo Campo => 4",
+    "time" : {
+      "start" : 1560966146926,
+      "stop" : 1560966147022,
+      "duration" : 96
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "selectElementoByValue[[[ChromeDriver: chrome on MAC (16942cba3cdd31fe50811cdc0de58685)] -> id: years], 1991]",
+    "title" : "Selecionar o campo Campo => 1991",
+    "time" : {
+      "start" : 1560966147035,
+      "stop" : 1560966147134,
+      "duration" : 99
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "clickCheckBox[[[ChromeDriver: chrome on MAC (16942cba3cdd31fe50811cdc0de58685)] -> xpath: //div/span/input[@id='newslett...]",
+    "title" : "Clica no botao => ",
+    "time" : {
+      "start" : 1560966147177,
+      "stop" : 1560966147221,
+      "duration" : 44
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "clickCheckBox[[[ChromeDriver: chrome on MAC (16942cba3cdd31fe50811cdc0de58685)] -> id: optin], ]",
+    "title" : "Clica no botao => ",
+    "time" : {
+      "start" : 1560966147255,
+      "stop" : 1560966147300,
+      "duration" : 45
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "writeInInput[[[ChromeDriver: chrome on MAC (16942cba3cdd31fe50811cdc0de58685)] -> id: company], grv]",
+    "title" : "Preencher Campo => grv",
+    "time" : {
+      "start" : 1560966147313,
+      "stop" : 1560966147405,
+      "duration" : 92
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "writeInInput[[[ChromeDriver: chrome on MAC (16942cba3cdd31fe50811cdc0de58685)] -> id: address1], saasd]",
+    "title" : "Preencher Campo => saasd",
+    "time" : {
+      "start" : 1560966147416,
+      "stop" : 1560966147514,
+      "duration" : 98
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "writeInInput[[[ChromeDriver: chrome on MAC (16942cba3cdd31fe50811cdc0de58685)] -> id: address2], line 2]",
+    "title" : "Preencher Campo => line 2",
+    "time" : {
+      "start" : 1560966147527,
+      "stop" : 1560966147624,
+      "duration" : 97
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "writeInInput[[[ChromeDriver: chrome on MAC (16942cba3cdd31fe50811cdc0de58685)] -> id: city], EUA]",
+    "title" : "Preencher Campo => EUA",
+    "time" : {
+      "start" : 1560966147636,
+      "stop" : 1560966147726,
+      "duration" : 90
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "selectElementoByValue[[[ChromeDriver: chrome on MAC (16942cba3cdd31fe50811cdc0de58685)] -> id: id_state], 15]",
+    "title" : "Selecionar o campo Campo => 15",
+    "time" : {
+      "start" : 1560966147737,
+      "stop" : 1560966147818,
+      "duration" : 81
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "writeInInput[[[ChromeDriver: chrome on MAC (16942cba3cdd31fe50811cdc0de58685)] -> id: postcode], 30301]",
+    "title" : "Preencher Campo => 30301",
+    "time" : {
+      "start" : 1560966147832,
+      "stop" : 1560966147942,
+      "duration" : 110
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "writeInInput[[[ChromeDriver: chrome on MAC (16942cba3cdd31fe50811cdc0de58685)] -> id: other], sdasdasdasdasdasfasf]",
+    "title" : "Preencher Campo => sdasdasdasdasdasfasf",
+    "time" : {
+      "start" : 1560966147953,
+      "stop" : 1560966148076,
+      "duration" : 123
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "writeInInput[[[ChromeDriver: chrome on MAC (16942cba3cdd31fe50811cdc0de58685)] -> id: phone], +5531251497990]",
+    "title" : "Preencher Campo => +5531251497990",
+    "time" : {
+      "start" : 1560966148087,
+      "stop" : 1560966148225,
+      "duration" : 138
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "writeInInput[[[ChromeDriver: chrome on MAC (16942cba3cdd31fe50811cdc0de58685)] -> id: phone_mobile], +5531991931239]",
+    "title" : "Preencher Campo => +5531991931239",
+    "time" : {
+      "start" : 1560966148237,
+      "stop" : 1560966148367,
+      "duration" : 130
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "writeInInput[[[ChromeDriver: chrome on MAC (16942cba3cdd31fe50811cdc0de58685)] -> id: alias], alias]",
+    "title" : "Preencher Campo => alias",
+    "time" : {
+      "start" : 1560966148379,
+      "stop" : 1560966148482,
+      "duration" : 103
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "clickButton[[[ChromeDriver: chrome on MAC (16942cba3cdd31fe50811cdc0de58685)] -> id: submitAccount], Register]",
+    "title" : "Clica no botao => Register",
+    "time" : {
+      "start" : 1560966148517,
+      "stop" : 1560966149912,
+      "duration" : 1395
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "JUnit"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "suite-name",
+    "value" : "br.com.web.groove.tech.tests.LoginTest"
+  }, {
+    "name" : "host",
+    "value" : "MacBook-Pro-de-Zup.local"
+  }, {
+    "name" : "suite-title",
+    "value" : "SUITE_001 - REGISTRAR CONTA DE E-MAIL"
+  }, {
+    "name" : "thread",
+    "value" : "3980@MacBook-Pro-de-Zup.local.main(1)"
+  }, {
+    "name" : "feature",
+    "value" : "001 - REGISTRAR CONTA E-MAIL COM SUCESSO"
+  } ],
+  "parameters" : [ ]
+}

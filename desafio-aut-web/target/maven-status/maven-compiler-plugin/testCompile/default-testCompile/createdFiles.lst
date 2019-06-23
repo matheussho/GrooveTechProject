@@ -1,0 +1,6 @@
+br/com/web/groove/tech/page/AuthenticationPage.class
+br/com/web/groove/tech/steps/AuthenticationSteps.class
+br/com/web/groove/tech/page/RegisterPage.class
+br/com/web/groove/tech/tests/LoginTest.class
+br/com/web/groove/tech/steps/RegisterSteps.class
+br/com/web/groove/tech/base/BaseTest.class
