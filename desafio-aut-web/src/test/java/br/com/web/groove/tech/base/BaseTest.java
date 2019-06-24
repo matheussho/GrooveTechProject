@@ -6,6 +6,12 @@ import br.com.web.groove.tech.helpers.DriverFactory;
 import br.com.web.groove.tech.helpers.Navigate;
 import br.com.web.groove.tech.utils.ConfigUtil;
 
+/**
+ * Classe base para todos os testes
+ * 
+ * @author Matheus
+ *
+ */
 public class BaseTest {
 	public BaseTest() {
 		if (DriverFactory.driver == null) {
@@ -19,10 +25,10 @@ public class BaseTest {
 		openPage();
 	}
 
-	//@AfterClass
-	//public static void tearDown() {
-	//	DriverFactory.driver.quit();
-	//}
+	// @AfterClass
+	// public static void tearDown() {
+	// DriverFactory.driver.quit();
+	// }
 
 	public void openPage() {
 		Navigate.navigateToUrl(DriverFactory.baseUrl);

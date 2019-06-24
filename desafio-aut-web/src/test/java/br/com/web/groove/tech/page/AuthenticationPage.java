@@ -53,17 +53,4 @@ public class AuthenticationPage {
 		SeleniumInteracts.clickButton(btnSubmitCreate, btnSubmitCreate.getText());
 	}
 
-	/**
-	 * Metodo que realiza o preenchimento do e-mail.
-	 * 
-	 * @param email
-	 */
-	public void authenticateEmail(String email) {
-		clickSignIn();
-		if (!email.isEmpty()) {
-			fillEmail(email);
-		}
-		clickSubmit();
-	}
-
 }
